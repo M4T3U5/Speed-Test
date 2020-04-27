@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Speed Test </title>
+		<link rel="stylesheet" type="text/css" href="css/speedTest.css">
+	</head>
+	<body>
+		<div class="header-banner">
+			Speed Test
+			<div class="header-banner-small"><a href="http://github.com/m4t3u5">by Silva</a></div>
+		</div>
+
+		<div class="body-banner">
+			<button onclick="startTest()" class="start-test-btn">Iniciar Teste</button>
+
+			<div class="gauges-line-div">
+
+				<div class="gauge-div">
+					<h2> Download </h2>
+					<canvas id="downloadGauge"></canvas>
+					<p>Mbps</p>
+					<div id="downloadGaugeValue"></div>	
+				</div>
+
+				<div class="gauge-div">
+					<h2> Upload </h2>
+					<canvas id="uploadGauge"></canvas>
+					<p>Mbps</p>
+					<div id="uploadGaugeValue"></div>	
+				</div>
+
+				<div class="gauge-div">
+					<h2> Ping </h2>
+					<canvas id="pingGauge"></canvas>
+					<p>ms</p>
+					<div id="pingGaugeValue"></div>	
+				</div>
+		
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
+
+<script src="dist/gauge.js"></script>
+<script src="dist/speedTest.js" ></script>
+<script src="dist/jquery-3.5.0.min.js"></script>

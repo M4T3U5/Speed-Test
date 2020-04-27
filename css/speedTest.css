@@ -1,0 +1,52 @@
+body {
+    background-color: gray;
+    padding: 10px;
+    max-width: 100%;
+}
+.header-banner {
+    font-size: 50px;
+    justify-content: center;
+    background-color: honeydew;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.header-banner-small {
+    font-size: 20px;
+    background-color: honeydew;
+    text-align: right;
+    font-family: monospace;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.start-test-btn {
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.gauge-line-div {
+    float: right;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+}
+
+.gauge-div {
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: max-content;
+    font-family: sans-serif;
+    background: linear-gradient(270deg, #0df3b8, #310df3);
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
